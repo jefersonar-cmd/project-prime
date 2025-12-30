@@ -91,7 +91,7 @@ export default function Header() {
                     "radial-gradient(circle at 30% 30%, rgba(200,163,90,0.22), transparent 60%)",
                 }}
               />
-              <span className="relative font-display text-lg text-prime-gold">T</span>
+              <span className="relative font-display text-lg text-prime-gold">TP</span>
             </div>
 
             <div className="leading-tight">
