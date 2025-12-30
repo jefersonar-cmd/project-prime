@@ -1,6 +1,7 @@
 import "./globals.css";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Tarsus Prime | Inteligência que conecta",
   description: "Arquitetura, integrações e aplicações corporativas com excelência e legado.",
   openGraph: {
