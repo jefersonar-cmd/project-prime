@@ -10,6 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-prime-gold: #c8a35a;
+  --color-prime-gold2: #b78b3a;
+  --color-prime-ink: #07070a;
+  --color-prime-slate: #0f1116;
+  --font-display: "ui-serif", "Georgia", "Times New Roman", "serif";
+  --font-body: "ui-sans-serif","system-ui","Segoe UI","Roboto","Arial","sans-serif";
 }
 
 @media (prefers-color-scheme: dark) {
