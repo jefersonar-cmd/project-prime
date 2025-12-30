@@ -94,25 +94,29 @@ npm run build
 ```
 
 
-O deploy é realizado via Vercel, utilizando integração direta com o repositório GitHub.
+O deploy é realizado via **Verce**l, utilizando integração direta com o repositório GitHub.
 
-Próximos Passos Planejados
-Substituição da logo temporária por SVG definitivo
+## Próximos Passos Planejados
 
-Página dedicada de serviços
+- [ ] Substituição da logo temporária por SVG definitivo
 
-Página de manifesto institucional
+- [ ] Página dedicada de serviços
 
-Formulário de contato funcional
+- [ ] Página de manifesto institucional
 
-Conteúdo institucional expandido
+- [ ] Formulário de contato funcional
 
-Sobre a Empresa
-Tarsus Prime
+- [ ] Conteúdo institucional expandido
+
+## Sobre a Empresa
+
+**Tarsus Prime**
+
 Inteligência que conecta sistemas, dados e decisões.
 
 CNPJ: 63.816.240/0001-89
 
-Licença
+## Licença
+
 Este projeto é de uso institucional da Tarsus Prime.
 Todos os direitos reservados.
