@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tarsus Prime — Website Institucional
 
-## Getting Started
+Website institucional da **Tarsus Prime**, desenvolvido com foco em clareza, desempenho e postura corporativa.  
+O projeto serve como presença oficial da empresa e base para evolução futura de conteúdo e serviços.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Visão Geral
+
+A Tarsus Prime atua na criação de aplicações, integrações e soluções digitais com foco em inteligência estratégica e sustentabilidade técnica.
+
+Este site foi pensado para:
+
+- Comunicar seriedade e confiança
+- Representar uma empresa jovem com ambição e responsabilidade
+- Servir como base sólida para crescimento futuro
+
+---
+
+## Stack Utilizada
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **PostCSS**
+- **Framer Motion** (animações sutis)
+- **Vercel** (deploy)
+
+---
+
+## Estrutura do Projeto
+
+```yaml
+src/
+├─ app/
+│ ├─ layout.tsx
+│ ├─ page.tsx
+│ └─ globals.css
+├─ components/
+│ ├─ Header.tsx
+│ ├─ Hero.tsx
+│ ├─ Services.tsx
+│ ├─ Method.tsx
+│ ├─ Founder.tsx
+│ ├─ Institutional.tsx
+│ ├─ Contact.tsx
+│ └─ Footer.tsx
+└─ styles/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Layout responsivo (desktop e mobile)
+- Navegação com rolagem suave
+- Menu com destaque automático conforme a seção ativa
+- Identidade visual corporativa (dark mode por padrão)
+- Animações discretas e não intrusivas
+- Metadados OpenGraph e Twitter Cards
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Identidade Visual
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Tipografia com serifa moderna para títulos e sans-serif para leitura
+- Paleta escura com destaque dourado
+- Estilo sóbrio, técnico e institucional
+- Logo temporária tipográfica, preparada para substituição por SVG definitivo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Desenvolvimento Local
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+A aplicação ficará disponível em:
+
+```arduino
+http://localhost:3000
+```
+
+
+
+
+## Build e Deploy
+
+```bash
+npm run build
+```
+
+
+O deploy é realizado via Vercel, utilizando integração direta com o repositório GitHub.
+
+Próximos Passos Planejados
+Substituição da logo temporária por SVG definitivo
+
+Página dedicada de serviços
+
+Página de manifesto institucional
+
+Formulário de contato funcional
+
+Conteúdo institucional expandido
+
+Sobre a Empresa
+Tarsus Prime
+Inteligência que conecta sistemas, dados e decisões.
+
+CNPJ: 63.816.240/0001-89
+
+Licença
+Este projeto é de uso institucional da Tarsus Prime.
+Todos os direitos reservados.
